@@ -20,11 +20,18 @@ namespace InsuranceClientPortal.Models
 
         //public string Id { get; set; }  //RowKey
         public string Name { get; set; }
+
+        public string Email { get; set; }
+
         public DateTime AppDate { get; set; }
+
         //public string InsuranceType { get; set; } //Partition Key
         public double Amount { get; set; }
+
         public double Premium { get; set; }
+
         public DateTime EndDate { get; set; }
+
         public string ImageUrl { get; set; }
     }
 }
